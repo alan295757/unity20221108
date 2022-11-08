@@ -11,8 +11,10 @@ GameObject:
   - component: {fileID: 6606779166188910809}
   - component: {fileID: 6361483175511299550}
   - component: {fileID: 2972761785212566770}
+  - component: {fileID: -4386339249460841978}
+  - component: {fileID: -2790057576735731112}
   m_Layer: 0
-  m_Name: shoot
+  m_Name: "\u5B50\u5F48"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -101,3 +103,35 @@ CircleCollider2D:
   m_Offset: {x: -0.067207396, y: 0.1891014}
   serializedVersion: 2
   m_Radius: 0.4081589
+--- !u!50 &-4386339249460841978
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4024575403438088257}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!247 &-2790057576735731112
+ConstantForce2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4024575403438088257}
+  m_Enabled: 1
+  m_Force: {x: 0, y: 0}
+  m_RelativeForce: {x: 20, y: 0}
+  m_Torque: 0
